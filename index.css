@@ -287,6 +287,7 @@ color: #1985A1;
 }
 
 .contacto .datos {
+    margin-top: 25%;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
