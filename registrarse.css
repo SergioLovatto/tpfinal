@@ -6,7 +6,6 @@ body {
     font-size: 16px;
 
 }
-
 .container {
     width: 100%;
     height: 100vh;
@@ -15,7 +14,6 @@ body {
     align-items: center;
 
 }
-
 .recuadro {
     width: 80%;
     height: 80%;
@@ -27,7 +25,6 @@ body {
 -moz-box-shadow: 10px 10px 17px -4px rgba(0,0,0,0.75);
     
 }
-
 .formulario {
     width: 100%;
     height: 100%;
@@ -57,16 +54,16 @@ form {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 4rem;
+    font-size: 1rem;
     
 }
 
 label{
     color: black;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     width: 100%;
     height: 25%;
-    font-size: 5rem;
+    
 }
 
 input { 
@@ -75,35 +72,26 @@ border-radius: 20px;
 height: 40px;
 border: none;
 padding: 0px 20px;
-font-size: 3rem;
+
 text-align: center;
 }
 
 .boton {
-height: 5rem;
-width: 70%;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-weight: 600;
-letter-spacing: 0.6;
-font-size: 3rem;
-
-background-color: #1985A1;
-color: white;
-border: none;
-border-radius: 25px;
-cursor: pointer;
-display: flex;
-align-items: center;
-justify-content: center;
-text-decoration: none;
-}
-
-.img { 
-    width: 50%;
-    background-image: url("./imagenes/Principal.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    border-radius: 20px;
-    display: none;
-}
+    height: 2rem;
+    width: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.6;
+    font-size: 1rem;
+    
+    background-color: #1985A1;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    }
+    
