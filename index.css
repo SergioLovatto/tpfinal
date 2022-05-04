@@ -399,8 +399,8 @@ color: #1985A1;
 
 @media (min-width: 769px) {
     .navbar div .icono-bar {
-        width: 7rem;
-        height: 5.5rem;
+        width: 8rem;
+        height: 4.5rem;
     }   
     .navmenu {
         background-color: #31085D;
@@ -469,7 +469,7 @@ color: #1985A1;
         justify-content: center;
     }
 .datos h2 {
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center;
 }
 
