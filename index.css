@@ -34,12 +34,13 @@ header a {
     margin-right: 10px;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    ;
+    
 }
 
 .hamburguesa { 
     width: 2rem;
     height: 2rem;
+    
 }
 
 .navcheck:checked + .navmenu {
@@ -59,6 +60,7 @@ header a {
     top:70px;
     bottom: 0;
     width: 100%;
+    height: 40%;
     left: 0;
     display: flex;
     justify-content: space-evenly;
@@ -337,7 +339,7 @@ color: #1985A1;
 .pie {
     width: 100%;
     height: 20vh;
-    background-color: #1985A1;
+    background-color: #1D1E18;
     color: rgb(255, 255, 255);
 }
 
@@ -357,5 +359,122 @@ color: #1985A1;
 .pie img {
     width: 2.5rem;
     height: 2.5rem;
-    margin: 1rem;
+    margin: 0 1rem 1rem 1rem;
 }
+
+
+@media (max-width: 768px) and (min-width: 426px) {
+   .navmenu {
+    background-color: #31085D;
+    display: flex;
+    position: relative; 
+    top:0px;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    left: 0;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+   color: white;
+}
+   
+   .navcheck, .hamburguesa {
+        display: none;
+   }
+   .nav-item {
+       visibility: visible;
+       display: block;
+       
+   }
+
+   .navcheck:checked + .navmenu {
+       background-color: #31085D; 
+       visibility: visible;
+   }
+ 
+   
+}
+
+@media (min-width: 769px) {
+    .navbar div .icono-bar {
+        width: 7rem;
+        height: 5.5rem;
+    }   
+    .navmenu {
+        background-color: #31085D;
+        display: flex;
+        position: relative; 
+        top:0px;
+        bottom: 0;
+        width: 50%;
+        height: 20%;
+        left: 0;
+        display: flex;
+        justify-content:space-around;
+        flex-direction: row;
+        align-items: center;
+       color: white;
+    }
+       
+       .navcheck, .hamburguesa {
+            display: none;
+       }
+       .nav-item {
+           visibility: visible;
+           display: block;
+           
+       }
+    
+       .navcheck:checked + .navmenu {
+           background-color: #31085D; 
+           visibility: visible;
+       }
+.hero {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hero img {
+    align-items: flex-start;
+    width: 90%;
+    height: 100%;
+}
+.hero h2 {
+   width: 50%;
+}
+
+.textos {
+    margin-top: 3%;
+    height: 0%;
+}
+.trabajos {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contacto {
+    flex-direction: row;
+}
+.contacto .datos {
+    margin-top: 20%;
+    height: 100%;
+    width: 50%;
+    }
+    .imagen {
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+    }
+.datos h2 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.logos {
+    align-items: flex-end;
+    justify-content:end ;
+}
+    }
