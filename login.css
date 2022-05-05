@@ -107,3 +107,37 @@ text-decoration: none;
     border-radius: 20px;
     display: none;
 }
+
+@media (max-width: 768px) and (min-width: 426px) {
+ 
+  label {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+  }
+  input {
+      font-size: 2rem;
+      width: 50%;
+  }
+
+  .boton {
+      font-size: 1.5rem;
+      height: 3rem;
+      width: 50%;
+  }
+}
+
+@media (min-width: 769px) {
+    label {
+        font-size: 2rem;
+     margin-bottom: 2rem;
+    }
+    input{
+        font-size: 2rem;
+        width: 50%;
+    }
+    .boton {
+        font-size: 1.5rem;
+        height: 3rem;
+        width: 50%;
+    }
+}
